@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f6eeee;
+}
+
+ul{
+    list-style:none;
+}
+main{
+    display: grid;
+    grid-template-columns: 33% 1fr;
+}
+.left{
+    background-color: #feebbc;
+    padding: 2rem;
+}
+
+.personal, .skills, .language{
+    padding : 1rem;
+    line-height: 2;
+     font-family: "Fira Sans", sans-serif;
+}
+
+.left-img{
+    position:relative;
+}
+.left-img h2 {
+    position: absolute;
+    bottom:0;
+    left: 1rem;
+}
+
+.right{
+    padding: 2rem;
+}
+
+.education ul li {
+  margin-bottom: 45px; 
+}
+
+.education ul li:last-child {
+  margin-bottom: 0;
+}
+
+.right .about {
+  padding-bottom: 24px;               
+  margin-bottom: 24px;               
+  border-bottom: 1px solid #000000;   
+}
+
+
+.projects .project-item {
+  margin-bottom: 20px; 
+}
+
+.projects .project-item:last-child {
+  margin-bottom: 0;
+}
+
+.projects h4 {
+  margin-bottom: 4px;
+}
+
+.projects .project-meta {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #555555; 
+}
+
+.projects ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.projects ul li {
+  margin-bottom: 6px;
+}
+
+
+.right > div {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000000;
+}
+
+
+.right > div:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+
+
+.projects h3 {
+  margin-bottom: 18px;
+}
+
+.projects h3 i {
+  margin-right: 8px;
+}
+
+
+.projects .project-item {
+  margin-bottom: 28px; 
+}
+
+.projects .project-item:last-child {
+  margin-bottom: 0;
+}
+
+
+.projects h4 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 1.05rem;
+}
+
+.projects .project-meta {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #555555;
+  font-size: 0.92rem;
+}
+
+
+.projects ul {
+  list-style-type: disc; 
+  padding-left: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.projects ul li {
+  margin-bottom: 8px;    
+  line-height: 1.5;      
+}
+
+.projects ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.skills h3 {
+  margin-bottom: 18px;
+}
+
+.skills h3 i {
+  margin-right: 8px;
+}
+
+
+.skills .skill-group {
+  margin-bottom: 16px;
+}
+
+.skills .skill-group:last-child {
+  margin-bottom: 0;
+}
+
+
+.skills h4 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.skills p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #090101;
+}
+
+.projects {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000000;
+}
+
+.skills,
+.achievements {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+.achievements h3 {
+  margin-bottom: 16px;
+}
+
+.achievements h3 i {
+  margin-right: 8px;
+}
+
+
+.achievements ul {
+  list-style-type: disc;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.achievements ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.achievements ul li:last-child {
+  margin-bottom: 0;
+}
+.contact h3 {
+  margin-bottom: 14px;
+}
+
+.contact h3 i {
+  margin-right: 8px;
+}
+
+.contact-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.contact-links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.contact-links li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-links li i {
+  width: 20px;             
+  margin-right: 10px;
+  color: #333333;
+  text-align: center;
+}
+
+.contact-links a {
+  color: #0b57d0;
+  text-decoration: none;
+  word-break: break-all;   
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+  color: #0842a0;
+}
+
+.contact {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000000;
+}
+
+.contact {
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid #000000;    
+
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000000; 
+}
+
+
+.skills {
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid #000000; 
+}
+
+
+.left img {
+  border-radius: 12px; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.left img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.32);
+}
+
+
+.resume-footer {
+  background: linear-gradient(135deg, #f8c25c 0%, #f39c12 100%);
+  color: #1f1f1f;
+  padding: 32px 24px;
+  text-align: center;
+  border-top: 2px solid #e08e0b;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.resume-footer h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 1.25rem;
+  color: #1a1a1a;
+}
+
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 28px;
+}
+
+.footer-links li {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.footer-links li i {
+  margin-right: 8px;
+  color: #1a1a1a;
+}
+
+.footer-links a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #333333;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Top Navigation Bar */
+.navbar {
+    background-color: #e08e0b;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 14px 16px;
+    transition: background-color 0.25s ease;
+}
+
+.navbar a:hover {
+    background-color: #c27806; 
+}
+
+
+.right > div,
+#contact {
+    scroll-margin-top: 60px;
+}
